@@ -1,0 +1,6 @@
+.blog-hero {
+  /* We'll handle the background image via inline styles in the component */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

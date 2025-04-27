@@ -1,0 +1,26 @@
+.heroBackground {
+  background-image: url('https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 85vh;
+  color: white;
+}
+
+.heroBackgroundSmall {
+  background-image: url('https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 50vh;
+  color: white;
+}
+
+.heroBackgroundXSmall {
+  background-image: url('https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 40vh;
+  color: white;
+}
