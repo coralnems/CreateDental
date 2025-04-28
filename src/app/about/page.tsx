@@ -68,7 +68,7 @@ export default function AboutPage() {
                 Our growth has been driven by our commitment to staying at the forefront of dental technology and techniques, while never losing sight of the personal touch that makes our practice special. We believe that building relationships with our patients is just as important as providing excellent clinical care.
               </p>
               <p className="text-gray-600">
-                Today, our team of experienced dental professionals continues to uphold Dr. Johnson's vision, ensuring that every patient who walks through our doors receives the highest standard of care in a welcoming environment.
+                Today, our team of experienced dental professionals continues to uphold Dr. Johnson&apos;s vision, ensuring that every patient who walks through our doors receives the highest standard of care in a welcoming environment.
               </p>
             </div>
           </div>
@@ -92,7 +92,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-semibold text-blue-800 mb-3">Patient-Centered Care</h3>
               <p className="text-gray-600">
-                We put our patients' needs first, listening to their concerns and working together to achieve optimal oral health.
+                We put our patients&apos; needs first, listening to their concerns and working together to achieve optimal oral health.
               </p>
             </div>
 
@@ -112,7 +112,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-semibold text-blue-800 mb-3">Continuous Learning</h3>
               <p className="text-gray-600">
-                We're committed to ongoing education and staying current with the latest advancements in dental care.
+                We&apos;re committed to ongoing education and staying current with the latest advancements in dental care.
               </p>
             </div>
 
@@ -122,7 +122,7 @@ export default function AboutPage() {
               </div>
               <h3 className="text-xl font-semibold text-blue-800 mb-3">Respect</h3>
               <p className="text-gray-600">
-                We respect our patients' time, preferences, and individuality, creating a welcoming environment for everyone.
+                We respect our patients&apos; time, preferences, and individuality, creating a welcoming environment for everyone.
               </p>
             </div>
           </div>

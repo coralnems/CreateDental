@@ -51,7 +51,7 @@ const Testimonial = ({ testimonials }: TestimonialProps) => {
                 <Star key={i} size={20} className="text-yellow-400 fill-yellow-400" />
               ))}
             </div>
-            <p className="text-gray-700 italic mb-4">"{testimonials[currentIndex].text}"</p>
+            <p className="text-gray-700 italic mb-4">&quot;{testimonials[currentIndex].text}&quot;</p>
             <p className="font-semibold text-blue-800">{testimonials[currentIndex].name}</p>
           </div>
         </div>

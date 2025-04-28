@@ -163,7 +163,7 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4 text-blue-900">What Our Patients Say</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">Don't just take our word for it. Here's what our patients have to say about their experience at DentalCare.</p>
+            <p className="text-gray-600 max-w-2xl mx-auto">Don&apos;t just take our word for it. Here&apos;s what our patients have to say about their experience at DentalCare.</p>
           </div>
 
           <Testimonial testimonials={testimonials} />
@@ -261,7 +261,7 @@ export default function Home() {
                   <Calendar size={16} className="mr-1" />
                   <span>April 10, 2023</span>
                 </div>
-                <h3 className="text-xl font-semibold mb-2 text-blue-800">Orthodontic Options for Adults: It's Never Too Late</h3>
+                <h3 className="text-xl font-semibold mb-2 text-blue-800">Orthodontic Options for Adults: It&apos;s Never Too Late</h3>
                 <p className="text-gray-600 mb-4">Explore the various orthodontic treatments available for adults looking to straighten their teeth and improve their smile.</p>
                 <Link
                   href="/blog/orthodontic-options-for-adults"

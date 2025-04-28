@@ -35,7 +35,7 @@ export default function ContactPage() {
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact Us</h1>
             <p className="text-xl text-blue-100">
-              We're here to answer your questions and help you schedule your appointment.
+              We&apos;re here to answer your questions and help you schedule your appointment.
             </p>
           </div>
         </div>
@@ -113,7 +113,7 @@ export default function ContactPage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-blue-900 mb-4">Find Us</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              We're conveniently located in Nuevo Progreso, Tamaulipas, Mexico, just across the border from Progreso, Texas. Our clinic is easily accessible with ample parking nearby.
+              We&apos;re conveniently located in Nuevo Progreso, Tamaulipas, Mexico, just across the border from Progreso, Texas. Our clinic is easily accessible with ample parking nearby.
             </p>
           </div>
 
@@ -169,7 +169,7 @@ export default function ContactPage() {
                 <li>In-House Payment Plans</li>
               </ul>
               <p className="mt-4 text-gray-600">
-                We're committed to helping you find the financial solution that works best for your budget. Ask our team about our financing options.
+                We&apos;re committed to helping you find the financial solution that works best for your budget. Ask our team about our financing options.
               </p>
             </div>
           </div>

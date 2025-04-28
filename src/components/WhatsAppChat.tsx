@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import { MessageCircle, X, Send } from "lucide-react";
-import Image from "next/image";
 
 type ChatPlatform = "whatsapp" | "telegram";
 
@@ -18,7 +17,7 @@ interface ChatWidgetProps {
 const ChatWidget = ({
   phoneNumber,
   telegramUsername = "creativesmiledental",
-  message = "Hello! I'd like to schedule an appointment at Creative Smile Dental.",
+  message = "Hello! I&apos;d like to schedule an appointment at Creative Smile Dental.",
   position = "bottom-right",
   autoOpen = false,
   autoOpenDelay = 3000,
@@ -146,7 +145,7 @@ const ChatWidget = ({
           </div>
 
           <p className="text-gray-600 mb-4">
-            Click the button below to chat with our team on {activePlatform === "whatsapp" ? "WhatsApp" : "Telegram"}. We'll respond as soon as possible!
+            Click the button below to chat with our team on {activePlatform === "whatsapp" ? "WhatsApp" : "Telegram"}. We&apos;ll respond as soon as possible!
           </p>
 
           <button

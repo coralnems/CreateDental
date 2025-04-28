@@ -1,8 +1,67 @@
 import React from 'react';
 
+// Define specific interfaces for each schema type
+interface LocalBusinessData {
+  name: string;
+  image: string;
+  url: string;
+  telephone: string;
+  priceRange: string;
+  address: {
+    streetAddress: string;
+    addressLocality: string;
+    addressRegion: string;
+    postalCode: string;
+    addressCountry: string;
+  };
+  geo: {
+    latitude: number;
+    longitude: number;
+  };
+  openingHoursSpecification: Array<{
+    dayOfWeek: string;
+    opens: string;
+    closes: string;
+  }>;
+  sameAs: string[];
+}
+
+interface ArticleData {
+  headline: string;
+  image: string;
+  author: {
+    name: string;
+  };
+  publisher: {
+    name: string;
+    logo: string;
+  };
+  datePublished: string;
+  dateModified: string;
+  description: string;
+  url: string;
+}
+
+interface WebPageData {
+  name: string;
+  description: string;
+  url: string;
+  websiteName: string;
+  websiteUrl: string;
+}
+
+interface FAQPageData {
+  questions: Array<{
+    question: string;
+    answer: string;
+  }>;
+}
+
+type SchemaData = LocalBusinessData | ArticleData | WebPageData | FAQPageData;
+
 interface SchemaMarkupProps {
   type: 'LocalBusiness' | 'DentalClinic' | 'Article' | 'WebPage' | 'FAQPage';
-  data: any;
+  data: SchemaData;
 }
 
 const SchemaMarkup: React.FC<SchemaMarkupProps> = ({ type, data }) => {
@@ -82,7 +141,7 @@ const SchemaMarkup: React.FC<SchemaMarkupProps> = ({ type, data }) => {
       schema = {
         '@context': 'https://schema.org',
         '@type': 'FAQPage',
-        mainEntity: data.questions.map((q: any) => ({
+        mainEntity: (data as FAQPageData).questions.map((q) => ({
           '@type': 'Question',
           name: q.question,
           acceptedAnswer: {

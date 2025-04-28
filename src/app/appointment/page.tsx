@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { Check } from "lucide-react";
 import SchemaMarkup from "@/components/SchemaMarkup";
@@ -42,11 +41,11 @@ export default function AppointmentPage() {
       },
       {
         question: "How do I reschedule or cancel an appointment?",
-        answer: "You can reschedule or cancel your appointment by calling our office at +01-956-275-2492. We appreciate at least 24 hours' notice for any changes."
+        answer: "You can reschedule or cancel your appointment by calling our office at +01-956-275-2492. We appreciate at least 24 hours&apos; notice for any changes."
       },
       {
         question: "Do you offer emergency dental services?",
-        answer: "Yes, we provide emergency dental care. If you're experiencing a dental emergency, please call our office immediately, and we'll do our best to see you as soon as possible."
+        answer: "Yes, we provide emergency dental care. If you&apos;re experiencing a dental emergency, please call our office immediately, and we&apos;ll do our best to see you as soon as possible."
       }
     ]
   };
@@ -61,7 +60,7 @@ export default function AppointmentPage() {
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Book Your Appointment</h1>
             <p className="text-xl text-blue-100">
-              Schedule your visit with our experienced dental team. We're here to help you achieve your best smile.
+              Schedule your visit with our experienced dental team. We&apos;re here to help you achieve your best smile.
             </p>
           </div>
         </div>
@@ -117,7 +116,7 @@ export default function AppointmentPage() {
                   Download New Patient Forms
                 </a>
                 <p className="text-sm text-blue-200">
-                  If you have any questions before your appointment, please don't hesitate to <Link href="/contact" className="underline hover:text-white">contact us</Link>.
+                  If you have any questions before your appointment, please don&apos;t hesitate to <Link href="/contact" className="underline hover:text-white">contact us</Link>.
                 </p>
               </div>
             </div>
@@ -163,7 +162,7 @@ export default function AppointmentPage() {
                 <li>In-House Payment Plans</li>
               </ul>
               <p className="mt-4 text-gray-600">
-                We're committed to helping you find the financial solution that works best for your budget. Ask our team about our financing options.
+                We&apos;re committed to helping you find the financial solution that works best for your budget. Ask our team about our financing options.
               </p>
             </div>
           </div>
@@ -198,14 +197,14 @@ export default function AppointmentPage() {
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold text-blue-800 mb-2">How do I reschedule or cancel an appointment?</h3>
               <p className="text-gray-600">
-                You can reschedule or cancel your appointment by calling our office at +01-956-275-2492. We appreciate at least 24 hours' notice for any changes.
+                You can reschedule or cancel your appointment by calling our office at +01-956-275-2492. We appreciate at least 24 hours&apos; notice for any changes.
               </p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold text-blue-800 mb-2">Do you offer emergency dental services?</h3>
               <p className="text-gray-600">
-                Yes, we provide emergency dental care. If you're experiencing a dental emergency, please call our office immediately, and we'll do our best to see you as soon as possible.
+                Yes, we provide emergency dental care. If you&apos;re experiencing a dental emergency, please call our office immediately, and we&apos;ll do our best to see you as soon as possible.
               </p>
             </div>
           </div>

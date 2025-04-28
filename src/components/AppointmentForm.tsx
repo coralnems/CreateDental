@@ -80,7 +80,7 @@ const AppointmentForm = () => {
       {submitSuccess ? (
         <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4">
           <p className="font-medium">Appointment Request Received!</p>
-          <p>Thank you for your appointment request. We'll contact you via WhatsApp or Telegram to confirm your appointment within 24 hours.</p>
+          <p>Thank you for your appointment request. We&apos;ll contact you via WhatsApp or Telegram to confirm your appointment within 24 hours.</p>
         </div>
       ) : null}
 

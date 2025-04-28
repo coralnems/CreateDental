@@ -60,7 +60,7 @@ export default function ServicesPage() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-blue-900">Comprehensive Dental Care</h2>
             <p className="text-gray-600 mt-4 max-w-3xl mx-auto">
-              At DentalCare, we're committed to providing exceptional dental services in a comfortable environment. Our experienced team uses the latest technology to ensure you receive the best possible care.
+              At DentalCare, we&apos;re committed to providing exceptional dental services in a comfortable environment. Our experienced team uses the latest technology to ensure you receive the best possible care.
             </p>
           </div>
 

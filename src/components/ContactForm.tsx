@@ -13,7 +13,6 @@ const ContactForm = () => {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
-  const [submitError, setSubmitError] = useState("");
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
@@ -26,7 +25,7 @@ const ContactForm = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
@@ -38,7 +37,7 @@ const ContactForm = () => {
         subject: "",
         message: "",
       });
-      
+
       // Reset success message after 5 seconds
       setTimeout(() => {
         setSubmitSuccess(false);
@@ -50,16 +49,12 @@ const ContactForm = () => {
     <div className="bg-white rounded-lg shadow-lg p-8">
       {submitSuccess ? (
         <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4">
-          <p>Thank you for your message! We'll get back to you soon.</p>
+          <p>Thank you for your message! We&apos;ll get back to you soon.</p>
         </div>
       ) : null}
-      
-      {submitError ? (
-        <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4">
-          <p>{submitError}</p>
-        </div>
-      ) : null}
-      
+
+
+
       <form onSubmit={handleSubmit}>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
@@ -76,7 +71,7 @@ const ContactForm = () => {
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
-          
+
           <div>
             <label htmlFor="email" className="block text-gray-700 font-medium mb-2">
               Email Address *
@@ -91,7 +86,7 @@ const ContactForm = () => {
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
-          
+
           <div>
             <label htmlFor="phone" className="block text-gray-700 font-medium mb-2">
               Phone Number
@@ -105,7 +100,7 @@ const ContactForm = () => {
               className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
-          
+
           <div>
             <label htmlFor="subject" className="block text-gray-700 font-medium mb-2">
               Subject *
@@ -127,7 +122,7 @@ const ContactForm = () => {
             </select>
           </div>
         </div>
-        
+
         <div className="mt-6">
           <label htmlFor="message" className="block text-gray-700 font-medium mb-2">
             Your Message *
@@ -142,7 +137,7 @@ const ContactForm = () => {
             className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           ></textarea>
         </div>
-        
+
         <div className="mt-6">
           <button
             type="submit"
