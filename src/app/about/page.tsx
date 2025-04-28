@@ -54,6 +54,7 @@ export default function AboutPage() {
                   src="https://images.pexels.com/photos/305566/pexels-photo-305566.jpeg"
                   alt="DentalCare clinic"
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover"
                 />
               </div>
@@ -169,6 +170,7 @@ export default function AboutPage() {
                 src="https://images.pexels.com/photos/3845810/pexels-photo-3845810.jpeg"
                 alt="Reception area"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-cover"
               />
             </div>
@@ -177,6 +179,7 @@ export default function AboutPage() {
                 src="https://images.pexels.com/photos/3845806/pexels-photo-3845806.jpeg"
                 alt="Treatment room"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-cover"
               />
             </div>
@@ -185,6 +188,7 @@ export default function AboutPage() {
                 src="https://images.pexels.com/photos/3881449/pexels-photo-3881449.jpeg"
                 alt="Dental equipment"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-cover"
               />
             </div>
@@ -193,6 +197,7 @@ export default function AboutPage() {
                 src="https://images.pexels.com/photos/3779706/pexels-photo-3779706.jpeg"
                 alt="Consultation room"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-cover"
               />
             </div>
@@ -201,6 +206,7 @@ export default function AboutPage() {
                 src="https://images.pexels.com/photos/305566/pexels-photo-305566.jpeg"
                 alt="Waiting area"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-cover"
               />
             </div>
@@ -209,6 +215,7 @@ export default function AboutPage() {
                 src="https://images.pexels.com/photos/3845727/pexels-photo-3845727.jpeg"
                 alt="Dental technology"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-cover"
               />
             </div>

@@ -41,7 +41,7 @@ export default function AppointmentPage() {
       },
       {
         question: "How do I reschedule or cancel an appointment?",
-        answer: "You can reschedule or cancel your appointment by calling our office at +01-956-275-2492. We appreciate at least 24 hours&apos; notice for any changes."
+        answer: "You can reschedule or cancel your appointment by calling our office at +528999371049. We appreciate at least 24 hours&apos; notice for any changes."
       },
       {
         question: "Do you offer emergency dental services?",
@@ -197,7 +197,7 @@ export default function AppointmentPage() {
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold text-blue-800 mb-2">How do I reschedule or cancel an appointment?</h3>
               <p className="text-gray-600">
-                You can reschedule or cancel your appointment by calling our office at +01-956-275-2492. We appreciate at least 24 hours&apos; notice for any changes.
+                You can reschedule or cancel your appointment by calling our office at +528999371049. We appreciate at least 24 hours&apos; notice for any changes.
               </p>
             </div>
 

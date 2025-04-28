@@ -46,7 +46,7 @@ export default function RootLayout({
     name: "Creative Smile Dental",
     image: "https://images.pexels.com/photos/305566/pexels-photo-305566.jpeg",
     url: "https://www.creativesmiledental.com",
-    telephone: "+01-956-275-2492",
+    telephone: "+528999371049",
     priceRange: "$$",
     address: {
       streetAddress: "326X+2H Nuevo Progreso",
@@ -99,7 +99,7 @@ export default function RootLayout({
         </main>
         <Footer />
         <ChatWidget
-          phoneNumber="+01-956-275-2492"
+          phoneNumber="+528999371049"
           telegramUsername="creativesmiledental"
           message="Hello Dr. Perales, I'd like to schedule an appointment at Creative Smile Dental. My name is: [Your Name]"
           autoOpen={true}

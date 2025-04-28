@@ -99,6 +99,7 @@ export default function Home() {
                   src="https://images.pexels.com/photos/305566/pexels-photo-305566.jpeg"
                   alt="Modern dental clinic"
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover"
                 />
               </div>
@@ -203,6 +204,7 @@ export default function Home() {
                   src="https://images.pexels.com/photos/3845806/pexels-photo-3845806.jpeg"
                   alt="Dental health tips"
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover"
                 />
               </div>
@@ -228,6 +230,7 @@ export default function Home() {
                   src="https://images.pexels.com/photos/3881449/pexels-photo-3881449.jpeg"
                   alt="Dental implants"
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover"
                 />
               </div>
@@ -253,6 +256,7 @@ export default function Home() {
                   src="https://images.pexels.com/photos/3779706/pexels-photo-3779706.jpeg"
                   alt="Orthodontic options"
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover"
                 />
               </div>

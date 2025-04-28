@@ -70,7 +70,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-blue-800 mb-1">Phone</h3>
-                    <p className="text-gray-600">+01-956-275-2492</p>
+                    <p className="text-gray-600">+528999371049</p>
                   </div>
                 </div>
 

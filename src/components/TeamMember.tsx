@@ -11,10 +11,11 @@ const TeamMember = ({ name, role, bio, imageUrl }: TeamMemberProps) => {
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden">
       <div className="relative h-64">
-        <Image 
-          src={imageUrl} 
-          alt={name} 
+        <Image
+          src={imageUrl}
+          alt={name}
           fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
           className="object-cover"
         />
       </div>

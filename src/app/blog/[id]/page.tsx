@@ -7,6 +7,13 @@ import SchemaMarkup from "@/components/SchemaMarkup";
 import "@/styles/blog.css";
 import { Metadata } from "next";
 
+// Generate static params for all blog posts
+export async function generateStaticParams() {
+  return blogPosts.map((post) => ({
+    id: post.id,
+  }));
+}
+
 type Props = {
   params: { id: string };
 };
@@ -98,6 +105,7 @@ export default function BlogPostPage({ params }: Props) {
                     src={post.authorImage}
                     alt={post.author}
                     fill
+                    sizes="96px"
                     className="rounded-full object-cover"
                   />
                 </div>
@@ -105,7 +113,14 @@ export default function BlogPostPage({ params }: Props) {
                   <h3 className="text-xl font-semibold text-blue-800">{post.author}</h3>
                   <p className="text-blue-600 mb-3">{post.authorRole}</p>
                   <p className="text-gray-600">
-                    Dr. Johnson is a passionate dental professional with over 15 years of experience. She specializes in cosmetic dentistry and is dedicated to patient education.
+                    {post.author === "Dr. Sarah Johnson" &&
+                      "Dr. Johnson is a passionate dental professional with over 15 years of experience. She specializes in cosmetic dentistry and is dedicated to patient education and creating comfortable experiences for patients with dental anxiety."}
+                    {post.author === "Dr. James Wilson" &&
+                      "Dr. Wilson is a skilled oral surgeon with 12 years of experience in dental implants and complex oral procedures. He is committed to using the latest techniques to ensure optimal patient outcomes."}
+                    {post.author === "Dr. Michael Chen" &&
+                      "Dr. Chen is an experienced orthodontist who has helped thousands of patients achieve beautiful smiles. He specializes in adult orthodontics and is certified in various clear aligner systems."}
+                    {post.author === "Dr. Emily Rodriguez" &&
+                      "Dr. Rodriguez is a pediatric dentistry specialist who loves working with children. With her gentle approach and 10 years of experience, she helps young patients develop positive associations with dental care."}
                   </p>
                 </div>
               </div>
@@ -137,6 +152,7 @@ export default function BlogPostPage({ params }: Props) {
                             src={relatedPost.imageUrl}
                             alt={relatedPost.title}
                             fill
+                            sizes="80px"
                             className="rounded-md object-cover"
                           />
                         </div>

@@ -42,6 +42,7 @@ const Testimonial = ({ testimonials }: TestimonialProps) => {
               src={testimonials[currentIndex].imageUrl}
               alt={testimonials[currentIndex].name}
               fill
+              sizes="(max-width: 768px) 96px, 128px"
               className="rounded-full object-cover"
             />
           </div>
